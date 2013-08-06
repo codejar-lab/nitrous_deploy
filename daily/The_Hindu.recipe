@@ -10,7 +10,7 @@ from hashlib import md5
 
 class OnlyLatestRecipe(BasicNewsRecipe):
     title          = u'The Hindu'
-    oldest_article = 2
+    oldest_article = 1
     max_articles_per_feed = 1000
     auto_cleanup = True
     masthead_url = 'http://www.thehindu.com/template/1-0-1/gfx/logo.jpg'
