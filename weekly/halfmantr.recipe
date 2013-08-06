@@ -18,7 +18,8 @@ class Frontlineonnet(BasicNewsRecipe):
     publisher            = 'Halfmantr'
     category             = 'upsc'
     no_stylesheets       = True
-#    max_articles_per_feed = 1
+    oldest_article = 7
+    max_articles_per_feed = 100
     auto_cleanup = True
     INDEX                = 'http://www.halfmantr.com/'
     use_embedded_content = False
