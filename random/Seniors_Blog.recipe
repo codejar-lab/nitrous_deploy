@@ -7,8 +7,8 @@ swapsusias.blogspot.com
 from calibre.utils.magick import Image
 class BasicUserRecipe1374243149(AutomaticNewsRecipe):
     title          = u"Seniors' Blog"
-    oldest_article = 7
-    max_articles_per_feed = 100
+    oldest_article = 100000
+    max_articles_per_feed = 1000
     auto_cleanup = True
 	description = u'Senior IAS officers Blog'
 
