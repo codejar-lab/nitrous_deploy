@@ -3,7 +3,7 @@ configpath=/home/action/workspace
 . $configpath/config.sh
 
 LIB=~/workspace/library
-RECIPE=/home/action/workspace/recipes/daily
+RECIPE=/home/action/workspace/workout/recipes/daily
 TO_EMAIL=arpanchavdaeng@free.kindle.com
 TO_HITESH=hiteshpiprotar9119@free.kindle.com
 
