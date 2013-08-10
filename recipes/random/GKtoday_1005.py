@@ -18,7 +18,7 @@ class BasicUserRecipe1374243904(AutomaticNewsRecipe):
     # Specify English as the language of the RSS feeds (ISO-639 code).
     language = 'en_IN'
 
-    # Set tags.
+    # Set category.
     category = 'quiz, current-affairs'
 
     # Set publisher and publication type.
