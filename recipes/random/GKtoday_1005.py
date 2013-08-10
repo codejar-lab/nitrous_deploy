@@ -19,7 +19,7 @@ class BasicUserRecipe1374243904(AutomaticNewsRecipe):
     language = 'en_IN'
 
     # Set tags.
-    tags = 'quiz, current-affairs'
+    category = 'quiz, current-affairs'
 
     # Set publisher and publication type.
     publisher = 'GKToday.in'
