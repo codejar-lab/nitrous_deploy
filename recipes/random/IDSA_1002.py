@@ -17,8 +17,8 @@ class BasicUserRecipe1374241209(AutomaticNewsRecipe):
     # Specify English as the language of the RSS feeds (ISO-639 code).
     language = 'en_IN'
 
-    # Set tags.
-    tags = 'news, blog'
+    # Set category.
+    category = 'news, blog'
 
     # Set publisher and publication type.
     publisher = 'IDSA'
