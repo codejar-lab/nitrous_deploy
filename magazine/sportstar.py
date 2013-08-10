@@ -11,7 +11,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class Frontlineonnet(BasicNewsRecipe):
     title                = 'Sportstar'
     __author__           = 'Arpan Chavda'
-    description          = "India's sport magazine"
+    description          = "Sport magazine by The Hindu"
     publisher            = 'Sportstar'
     category             = 'news, sports, India'
     no_stylesheets       = True
