@@ -37,7 +37,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     conversion_options = { 'smarten_punctuation' : True }
 
     feeds          = [(u'Home', u'http://www.frontline.in/?service=rss')]
-    
+    #define print url
     def print_version(self, url):
         return url+'&css=print'
 
