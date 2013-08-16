@@ -20,7 +20,7 @@ done
 for f in $LIB/*.mobi
 do
   .$CALIBRE/calibre-smtp --attachment $f --relay smtp.gmail.com --port 587 --username $USERNAME --password "$PASSWORD" --encryption-method TLS $FROM_EMAIL $TO_EMAIL ""
-  .$CALIBRE/calibre-smtp --attachment $f --relay smtp.gmail.com --port 587 --username $USERNAME --password "$PASSWORD" --encryption-method TLS $FROM_EMAIL $TO_HITESH ""
+#  .$CALIBRE/calibre-smtp --attachment $f --relay smtp.gmail.com --port 587 --username $USERNAME --password "$PASSWORD" --encryption-method TLS $FROM_EMAIL $TO_HITESH ""
   .$CALIBRE/calibredb add $f --duplicates --library-path=$LIB
 done
 #run calibre server
