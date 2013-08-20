@@ -1,7 +1,7 @@
 __license__   = 'GPL v3'
 __copyright__ = '2013, Arpan Chavda <arpanchavdaeng at gmail.com>'
 '''
-thecalibre.in,jagranjosh.com,gktoday.in
+bestcurrentaffairs.com,jagranjosh.com,gktoday.in
 '''
 
 from calibre.constants import config_dir, CONFIG_DIR_MODE
@@ -9,10 +9,10 @@ import os, os.path, urllib
 from hashlib import md5
 
 class OnlyLatestRecipe(BasicNewsRecipe):
-    title          = u'GKToday, Jagran Josh & Calibre.in'
+    title          = u'Current Affairs & Quiz'
     oldest_article = 7
     max_articles_per_feed = 10000
-    description = u'gktoday.in,jagranjosh.com and thecalibre.in web site ebook created using rss feeds.'
+    description = u'gktoday.in,jagranjosh.com and bestcurrentaffairs.com web site ebook created using rss feeds.'
 
     # Author of this recipe.
     __author__ = 'arpan-chavda'
@@ -24,7 +24,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     category = 'quiz, current-affairs, blog'
 
     # Set publisher and publication type.
-    publisher = 'Gktoday.in, Jagran Josh and theCalibre.in'
+    publisher = 'Gktoday.in, Jagran Josh and bestcurrentaffairs.com'
     publication_type = 'blog'
 
     # Disable stylesheets from site.
@@ -36,7 +36,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
 
     auto_cleanup = True
     auto_cleanup_keep = '//img[@itemprop="image"]'
-    feeds          = [(u'Jagran Josh', u'http://www.jagranjosh.com/rss/josh/current_affairs.xml'), (u'GKToday.in', u'http://feeds.feedburner.com/GeneralKnowledgeToday'), (u'Calibre.in', u'http://thecalibre.in/feed')]
+    feeds          = [(u'Jagran Josh', u'http://www.jagranjosh.com/rss/josh/current_affairs.xml'), (u'GKToday.in', u'http://feeds.feedburner.com/GeneralKnowledgeToday'), (u'Current Affairs', u'http://bestcurrentaffairs.com/w/feed/')]
 
     def parse_feeds(self):
         recipe_dir = os.path.join(config_dir,'recipes')
