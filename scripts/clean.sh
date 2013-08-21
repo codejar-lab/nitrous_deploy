@@ -1,2 +1,11 @@
 #!/bin/bash
-rm -rf /home/action/workspace/library/calibre
+cd /home/action/
+mem=`du -sh | cut -f1 -d "M"`
+#echo "used memory : $mem"
+if [ $mem -gt 1300 ]; then
+	{	
+		#echo "Removing database"
+		rm -rf /home/action/workspace/library/calibre
+	}
+fi
+

@@ -19,7 +19,7 @@ done
 #send ebook
 for f in $LIB/Frontline.mobi
 do
-  .$CALIBRE/calibre-smtp --relay smtp.gmail.com --port 587 --username $USERNAME --password "$PASSWORD" --encryption-method TLS $FROM_EMAIL $FROM_EMAIL "Frontline issue released"
+#  .$CALIBRE/calibre-smtp --relay smtp.gmail.com --port 587 --username $USERNAME --password "$PASSWORD" --encryption-method TLS $FROM_EMAIL $FROM_EMAIL "Frontline issue released"
 #  .$CALIBRE/calibre-smtp --attachment $f --relay smtp.gmail.com --port 587 --username $USERNAME --password "$PASSWORD" --encryption-method TLS $FROM_EMAIL $TO_HITESH ""
   .$CALIBRE/calibredb add $f --duplicates --library-path=$LIB
 done
