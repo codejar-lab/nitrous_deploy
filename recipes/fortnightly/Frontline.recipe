@@ -39,7 +39,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     feeds          = [(u'Home', u'http://www.frontline.in/?service=rss')]
     #define print url
     def print_version(self, url):
-        return url+'&css=print'
+        return url+'?css=print'
 
     def parse_feeds(self):
         recipe_dir = os.path.join(config_dir,'recipes')
