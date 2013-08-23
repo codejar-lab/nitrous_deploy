@@ -1,0 +1,6 @@
+30 0 * * * sh /home/action/workspace/sync.sh > /dev/null 2>&1                                         
+30 1 * * * sh /home/action/workspace/workout/scripts/daily.sh > /dev/null 2>&1                        
+35 1 * * 6 sh /home/action/workspace/workout/scripts/weekly.sh > /dev/null 2>&1                       
+45 1 2,4,6,8,10,12,14,16,18,20,22,24,26,28,30 * * sh /home/action/workspace/workout/scripts/fortnightl
+y.sh > /dev/null 2>&1                                                                                 
+0 0 * * * sh /home/action/workspace/workout/scripts/clean.sh > /dev/null 2>&1
