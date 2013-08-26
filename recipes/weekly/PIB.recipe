@@ -22,7 +22,7 @@ class OnlyLatestRecipe(BasicNewsRecipe):
     language = 'en_IN'
 
     # Set category.
-    category = 'news, current-affairs'
+    category = 'current-affairs'
 
     # Set publisher and publication type.
     publisher = 'PIB'
