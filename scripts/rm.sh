@@ -3,3 +3,4 @@
 sed -i '1,1d' tmp.txt 
 sed -i '$d' tmp.txt 
 while read line; do ./workspace/calibre/calibredb remove $line; done < tmp.txt
+rm tmp.txt
