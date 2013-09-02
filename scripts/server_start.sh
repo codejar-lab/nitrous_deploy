@@ -1,6 +1,5 @@
 #!/bin/bash
 #run calibre server
-#!/bin/bash
 configpath=/home/action/workspace
 . $configpath/config.sh
 
