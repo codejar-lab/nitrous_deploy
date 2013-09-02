@@ -23,8 +23,6 @@ do
 #  .$CALIBRE/calibre-smtp --attachment $f --relay smtp.gmail.com --port 587 --username $USERNAME --password "$PASSWORD" --encryption-method TLS $FROM_EMAIL $TO_HITESH ""
   .$CALIBRE/calibredb add $f --duplicates --library-path=$LIB
 done
-#run calibre server
-.$CALIBRE/calibre-server --daemonize --timeout=15 --with-library=$LIB
 
 #remove ebook
 rm $LIB/*.mobi
