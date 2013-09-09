@@ -10,7 +10,6 @@ from hashlib import md5
 
 class OnlyLatestRecipe(BasicNewsRecipe):
     title          = u'Indian Express'
-    oldest_article = 1
     max_articles_per_feed = 1000
     auto_cleanup = True
     masthead_url = 'http://static.indianexpress.com/frontend/iep/images/images_new2013/logo.jpg'
